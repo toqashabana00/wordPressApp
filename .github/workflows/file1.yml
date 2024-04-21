@@ -24,6 +24,6 @@ jobs:
       - name: check running
         run: docker images
 
-      #- name: name img
-       # run: docker tag wordpressapp-wordpress toqashabana00/wordpressapp-wordpress-2:latest
+      - name: name img
+        run: docker tag wordpressapp_wordpress:latest toqashabana00/my-wordpress-image:latest
       
