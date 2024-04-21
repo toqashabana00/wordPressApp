@@ -17,3 +17,7 @@ jobs:
 
       - name: check repo
         uses: actions/checkout@v4
+
+      - name: run docker-compose
+        run: docker-compose up -d
+      
