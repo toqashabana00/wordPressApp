@@ -26,4 +26,8 @@ jobs:
 
       - name: name img
         run: docker tag wordpressapp_wordpress:latest toqashabana00/my-wordpress-image:latest
+
+      - name: push img
+        run: docker push toqashabana00/my-wordpress-image:latest
+
       
