@@ -22,5 +22,5 @@ jobs:
         run: docker-compose up -d 
 
       - name: name img
-        run: docker tag wordpressapp2-wordpress toqashabana00/wordpressapp2-wordpress:latest
+        run: docker tag wordpressapp-wordpress toqashabana00/wordpressapp-wordpress-2:latest
       
